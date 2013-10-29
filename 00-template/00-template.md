@@ -33,18 +33,18 @@
 以下两种写法都是正确的，请统一为**第一种**，即一律使用 `**加强` `*强调`
 
 ```
-*emphasize*   **strong** 相当于<strong>标签和<em>标签
+*emphasize*   **strong** 相当于<em>标签和<strong>标签
 _emphasize_   __strong__
 ```
 
 ### 代码块规范
 
-* 行内代码使用`1对波浪号` 如： \`hello world!\`
-* 块级代码使用`3个波浪号` 或 `整体4空格缩进`，且上下均用`整合隔开`，如下:  (**占用7行**)
+* 行内代码使用`1对左单引号 quasiquote(~波浪号同键位)` 如： \`hello world!\`
+* 块级代码使用`3个左单引号` 或 `整体4空格缩进`，且上下均用`整合隔开`，如下:  (**占用7行**)
 
 ```  
 <?php   
-   echo '看我源码 - 3个波浪号';  
+   echo '看我源码 - 3个左单引号';
 ?>  
 ```
 
@@ -145,7 +145,7 @@ Inline (titles are optional):
 
 `<code>` 段落中的用法
 
-也可以 `` `代码中包含波浪号` ``.
+也可以 `` `代码中包含左单引号` ``.
 Block Code
 Indent every line of a code block by at least 4 spaces or 1 tab.
 
